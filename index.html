@@ -2,54 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfume Gallery</title>
+  <title>My Blog</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <div class="logo">Perfumy</div>
-    <nav>
-      <a href="#">Home</a> |
-      <a href="#">Products</a> |
-      <a href="#">About Us</a> |
-      <a href="#">Contact Us</a>
-    </nav>
+    <div class="tabs">
+      <button>HTML</button>
+      <button>CSS</button>
+      <button class="active">Result</button>
+    </div>
   </header>
 
-  <div class="search-box">
-    <input type="text" placeholder="Search">
-  </div>
+  <nav>
+    <h1>My Blog</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
 
-  <div class="product-container">
-    <div class="product-card">
-      <img src="perfumy1.jpg" alt="Product 1">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam deserunt aspernatur in.</p>
-    </div>
-    <div class="product-card">
-      <img src="perfumy2.jpg" alt="Product 2">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam deserunt aspernatur in.</p>
-    </div>
-    <div class="product-card">
-      <img src="perfumy3.jpg" alt="Product 3">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam deserunt aspernatur in.</p>
-    </div>
-  </div>
-  <section class="about-section">
-    <h1>About Us</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta non fuga, adipisci nemo velit ipsam...
-      <!-- Add more "Lorem ipsum" here as needed to match the paragraph length -->
-    </p>
-  </section>
+  <main>
+    <section class="blog-post">
+      <h2>Blog Post Title</h2>
+      <p>Content of the first blog post...</p>
+    </section>
+    <section class="blog-post">
+      <h2>Another Blog Post</h2>
+      <p>Content of the second blog post...</p>
+    </section>
+  </main>
 
   <footer>
-    <div class="footer-content">
-      <p>Contact<br>+91 3478631928<br>perfumy@gmail.com</p>
-      <p class="disclaimer">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolores quod iste aliquid ipsa rerum eaque perspiciatis nemo temporibus. Eiusque, maxime.
-      </p>
-    </div>
+    <p>© 2023 My Simple Blog</p>
   </footer>
 </body>
 </html>
